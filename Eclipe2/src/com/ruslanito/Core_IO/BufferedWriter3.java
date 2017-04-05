@@ -10,9 +10,11 @@ public class BufferedWriter3 {
 
 		try {
 			// используем ссылку на файл
-			BufferedWriter writer = new BufferedWriter (new FileWriter(myFile));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(myFile));
 			// запись информационной строки
-			writer.write("Helo FileWriter2 ");
+			writer.write("Helo BufferedWriter3 ");  
+			// Очистим поток
+			writer.flush();
 			// закрываем поток
 			writer.close();
 
