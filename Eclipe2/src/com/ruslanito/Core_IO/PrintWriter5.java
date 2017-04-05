@@ -2,17 +2,17 @@ package com.ruslanito.Core_IO;
 
 import java.io.*;
 
-public class BufferedWriter4 {
+public class PrintWriter5 {
 
 	public static void main(String[] args) {
-		// создаём файл bufferedwriter4.txt с дополнением текста в нём
-		File myFile = new File("e://bufferedwriter4.txt");
+		// создаём файл printwriter5.txt с дополнением текста в нём
+		File myFile = new File("e://printwriter5.txt");
 
 		try {
 			// используем ссылку на файл
-			BufferedWriter writer = new BufferedWriter(new FileWriter(myFile, true));
+			PrintWriter writer = new PrintWriter (new BufferedWriter(new FileWriter(myFile, true)));
 			// запись информационной строки
-			writer.write("Helo BufferedWriter4 \n");
+			writer.println("Helo PrintWriter5");
 			// Очистим поток
 			writer.flush();
 			// закрываем поток
