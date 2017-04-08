@@ -1,5 +1,21 @@
 package ru.Javabegin.FastJava.Shop3.service;
 
-public class Banker extends BaseEmployee{
+import ru.Javabegin.FastJava.Shop3.bank.BaseBank;
+
+public class Banker extends BaseEmployee {
+
+	private BaseBank bank;
+
+	public void sendRequest() {
+
+	}
+
+	public BaseBank getBank() {
+		return bank;
+	}
+
+	public void setBank(BaseBank bank) {
+		this.bank = bank;
+	}
 
 }
