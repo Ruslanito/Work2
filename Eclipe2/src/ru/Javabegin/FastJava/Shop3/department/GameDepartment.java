@@ -1,5 +1,5 @@
 package ru.Javabegin.FastJava.Shop3.department;
 
-public class GameDepartment {
+public class GameDepartment extends BaseDepartnent{
 
 }
