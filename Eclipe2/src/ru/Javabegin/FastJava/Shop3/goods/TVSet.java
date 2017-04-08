@@ -1,11 +1,11 @@
 package ru.Javabegin.FastJava.Shop3.goods;
 
-public class TVSet extends ElectronicDevice{ 
-	
+public class TVSet extends ElectronicDevice {
+
 	private String model;
-	
-	public void selectChannel( ){ 
-		
+
+	public void selectChannel() {
+
 	}
 
 	public String getModel() {
