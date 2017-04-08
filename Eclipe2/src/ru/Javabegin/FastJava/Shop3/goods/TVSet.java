@@ -1,5 +1,5 @@
 package ru.Javabegin.FastJava.Shop3.goods;
 
-public class TVSet extends BaseGoods{
+public class TVSet extends ElectronicDevice{
 
 }

@@ -1,5 +1,5 @@
 package ru.Javabegin.FastJava.Shop3.goods;
 
-public class HardDrive extends BaseGoods{
+public class HardDrive extends ElectronicDevice{
 
 }
