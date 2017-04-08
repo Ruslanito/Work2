@@ -6,7 +6,7 @@ public class Consultant extends BaseEmployee {
 
 	}
 
-	public void end() {
+	public void send() {
 
 	}
 
