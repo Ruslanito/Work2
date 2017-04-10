@@ -6,8 +6,4 @@ public interface BankInterface {
 
 	void giveCredit();
 
-	String getName();
-
-	String getCreditDescription();
-
 }
