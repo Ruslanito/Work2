@@ -2,14 +2,14 @@ package ru.Javabegin.FastJava.Shop4interface.department;
 
 import java.util.ArrayList;
 
-import ru.Javabegin.FastJava.Shop4interface.interfaces.BaseEmployee;
-import ru.Javabegin.FastJava.Shop4interface.interfaces.BaseGoods;
 import ru.Javabegin.FastJava.Shop4interface.interfaces.DepartmentInterface;
+import ru.Javabegin.FastJava.Shop4interface.interfaces.EmployeeInterface;
+import ru.Javabegin.FastJava.Shop4interface.interfaces.GoodsInterface;
 
 public class BaseDepartment implements DepartmentInterface {
 	private String name;
-	private ArrayList<BaseEmployee> employeeList;
-	private ArrayList<BaseGoods> goodsList;
+	private ArrayList<EmployeeInterface> employeeList;
+	private ArrayList<GoodsInterface> goodsList;
 
 	@Override
 	public String getName() {
@@ -21,21 +21,21 @@ public class BaseDepartment implements DepartmentInterface {
 	}
 
 	@Override
-	public ArrayList<BaseEmployee> getEmployeeList() {
+	public ArrayList<EmployeeInterface> getEmployeeList() {
 		return employeeList;
 	}
 
-	public void setEmployeeList(ArrayList<BaseEmployee> employeeList) {
+	public void setEmployeeList(ArrayList<EmployeeInterface> employeeList) {
 		this.employeeList = employeeList;
 	}
 
 	@Override
-	public ArrayList<BaseGoods> getGoodsList() {
+	public ArrayList<GoodsInterface> getGoodsList() {
 		return goodsList;
 	}
 
-	public void setGoodsList(ArrayList<BaseGoods> goodsList) {
-		this.employeeList = goodsList;
+	public void setGoodsList(ArrayList<GoodsInterface> goodsList) {
+		this.goodsList = goodsList;
 	}
 
 }
