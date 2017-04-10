@@ -4,6 +4,10 @@ public interface BankInterface {
 
 	void checkInfo();
 
-	void giveCredit();
+	void giveCredit(); 
+	
+	String getName( );
+	 
+	String getCreditDescription ( );
 
 }
