@@ -7,12 +7,24 @@ public class BaseBank implements BankInterface {
 	private String name;
 	private String creditDescription;
 
+	@Override
+	public String getname() {
+		return name;
+	}
+
+	@Override
 	public void checkInfo() {
 
 	}
 
-	public void giveCredit() { 
-		
+	@Override
+	public void giveCredit() {
+
+	}
+
+	@Override
+	public String getCreditDescription() {
+		return creditDescription;
 	}
 
 	public String getName() {
@@ -23,13 +35,4 @@ public class BaseBank implements BankInterface {
 		this.name = name;
 	}
 
-	public String getCreditDescription() {
-		return creditDescription;
-	}
-
-	public void setCreditDescription(String creditDescription) {
-		this.creditDescription = creditDescription;
-	}
-
-	
 }

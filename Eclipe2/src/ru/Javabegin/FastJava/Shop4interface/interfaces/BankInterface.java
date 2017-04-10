@@ -2,10 +2,12 @@ package ru.Javabegin.FastJava.Shop4interface.interfaces;
 
 public interface BankInterface {
 
-	void checkInfo();
+	void checkInfo();// метод действия
 
-	void giveCredit();
+	void giveCredit();// метод действия
 
-	String getname();
+	String getname();//имя банка
+
+	String getCreditDescription();//описание кредита
 
 }
