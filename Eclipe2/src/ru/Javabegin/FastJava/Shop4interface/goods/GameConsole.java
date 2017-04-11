@@ -1,5 +1,17 @@
 package ru.Javabegin.FastJava.Shop4interface.goods;
 
-public class GameConsole {
+import ru.Javabegin.FastJava.Shop4interface.interfaces.ElectronicDeviceInterface;
+
+public class GameConsole extends BaseGoods implements ElectronicDeviceInterface {
+
+	@Override
+	public void on() {
+
+	}
+
+	@Override
+	public void off() {
+
+	}
 
 }
