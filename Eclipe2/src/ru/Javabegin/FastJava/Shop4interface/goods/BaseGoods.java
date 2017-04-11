@@ -39,15 +39,22 @@ public class BaseGoods implements GoodsInterface {
 	}
 
 	@Override
-	public DepartmentInterface getDepartment() {
-		// TODO Auto-generated method stub
-		return null;
+	public BaseDepartment getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(BaseDepartment department) {
+		this.department = department;
 	}
 
 	@Override
 	public String getCompany() {
-		// TODO Auto-generated method stub
-		return null;
+		return company;
+	}
+
+	public void setCompany(String company) {
+		this.company = company;
+
 	}
 
 }
