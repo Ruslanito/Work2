@@ -1,5 +1,9 @@
 package ru.Javabegin.FastJava.Shop4interface.goods;
 
-public class ElectronicDevice {
+import ru.Javabegin.FastJava.Shop3.goods.BaseGoods;
+
+public class ElectronicDevice extends BaseGoods{ 
+	
+	
 
 }
