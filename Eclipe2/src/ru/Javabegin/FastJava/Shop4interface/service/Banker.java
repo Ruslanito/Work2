@@ -1,5 +1,12 @@
 package ru.Javabegin.FastJava.Shop4interface.service;
 
-public class Banker extends BaseEmployee{
+import ru.Javabegin.FastJava.Shop4interface.interfaces.BankInterface;
+
+public class Banker extends BaseEmployee {
+	private BankInterface bank;
+
+	public void sendRequest() {
+
+	}
 
 }

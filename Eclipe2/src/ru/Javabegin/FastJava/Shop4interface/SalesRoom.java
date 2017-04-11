@@ -1,10 +1,17 @@
 package ru.Javabegin.FastJava.Shop4interface;
 
+import java.util.ArrayList;
+
+import ru.Javabegin.FastJava.Shop4interface.interfaces.DepartmentInterface;
+import ru.Javabegin.FastJava.Shop4interface.interfaces.VisitorInterface;
+import ru.Javabegin.FastJava.Shop4interface.service.Administrator;
+
 public class SalesRoom {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	private ArrayList<DepartmentInterface>departmentList;
+	private String name;
+	private ArrayList<VisitorInterface >visitirList; 
+	private Administrator administrator;
+	
 
 }
