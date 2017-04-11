@@ -8,7 +8,8 @@ class FDemo{
     FDemo (int i){
         x=i;
     }
-    protected void finalize (){
+  
+	protected void finalize (){
         System.out.println("Финализация"+x);
     }
 

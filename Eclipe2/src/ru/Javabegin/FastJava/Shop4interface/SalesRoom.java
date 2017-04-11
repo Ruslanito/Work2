@@ -10,7 +10,7 @@ public class SalesRoom {
 
 	private ArrayList<DepartmentInterface>departmentList;
 	private String name;
-	private ArrayList<VisitorInterface >visitirList; 
+	private ArrayList<VisitorInterface >visitorList; 
 	private Administrator administrator;
 	
 
