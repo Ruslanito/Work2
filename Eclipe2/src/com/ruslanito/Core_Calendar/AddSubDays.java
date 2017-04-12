@@ -8,7 +8,8 @@ public class AddSubDays {
 		int q = 12;
 		// получение текущей даты
 		Calendar now = Calendar.getInstance();
-		Calendar now2 = Calendar.getInstance();
+		Calendar now2 = Calendar.getInstance(); 
+		Calendar now3 = Calendar.getInstance();
 		System.out.println("Текущая дата:" + (now.get(Calendar.MONTH) + 1) + "-" + now.get(Calendar.DATE) + "-"
 				+ now.get(Calendar.YEAR));
 		// через q дней используя метод now.add()
@@ -23,7 +24,10 @@ public class AddSubDays {
 				+ "-" + now.get(Calendar.YEAR));
 		now2.add(Calendar.DATE, q);
 		System.out.println("через q=" + q + " дней:" + (now2.get(Calendar.MONTH) + 1) + "-" + now2.get(Calendar.DATE)
-				+ "-" + now2.get(Calendar.YEAR));
+				+ "-" + now2.get(Calendar.YEAR)); 
+		now3.add(Calendar.YEAR, -q);
+		System.out.println("за q=" + q + " лет до текущей даты было:" + (now3.get(Calendar.MONTH) + 1) + "-" + now3.get(Calendar.DATE)
+				+ "-" + now3.get(Calendar.YEAR));
 
 	}
 
