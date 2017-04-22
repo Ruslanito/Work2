@@ -1,18 +1,19 @@
-package com.ruslanito.Core_String;
+package com.ruslanito.Core.Core_String;
 
 /**
  * Created by Ruslanito on 24.02.2017.
  */
-public class String_LetterCase {
+public class String_Replace {
     public static void main(String[] args) {
         String s = "Hello World!";
         System.out.println(s);
 
-        String s1 = s.toLowerCase();
+        String s1 = s.replace("H","h");
         System.out.println(s1);
 
-        String s2 = s.toUpperCase();
+        String s2 = s.replace("l","L");
         System.out.println(s2);
+
 
     }
 }
