@@ -1,4 +1,4 @@
-package com.ruslanito; /**
+package com.ruslanito.Projects.Water; /**
  * Created by user on 03.01.2017.
  */
 import java.util.Scanner;

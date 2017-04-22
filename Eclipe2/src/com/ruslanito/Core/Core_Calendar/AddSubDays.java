@@ -1,4 +1,4 @@
-package com.ruslanito.Core_Calendar;
+package com.ruslanito.Core.Core_Calendar;
 
 import java.util.Calendar;
 
