@@ -1,4 +1,4 @@
-package com.ruslanito.Core_Swing;
+package com.ruslanito.Core.Core_Swing;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
