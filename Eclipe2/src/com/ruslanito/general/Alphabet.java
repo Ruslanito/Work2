@@ -1,4 +1,4 @@
-package com.ruslanito;
+package com.ruslanito.general;
 
 /**
  * Алфавит и явное приведение типов

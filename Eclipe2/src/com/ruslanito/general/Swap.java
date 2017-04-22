@@ -1,4 +1,4 @@
-package com.ruslanito;
+package com.ruslanito.general;
 
 /**
  * Created by Ruslanito on 12.02.2017.
