@@ -14,4 +14,20 @@ public class Bank {
 
     }
 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCreaditDescription() {
+		return creaditDescription;
+	}
+
+	public void setCreaditDescription(String creaditDescription) {
+		this.creaditDescription = creaditDescription;
+	}
+
 }
