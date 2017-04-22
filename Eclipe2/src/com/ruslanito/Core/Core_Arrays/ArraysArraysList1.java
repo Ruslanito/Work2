@@ -1,4 +1,4 @@
-package com.ruslanito.general;
+package com.ruslanito.Core.Core_Arrays;
 
 import java.util.ArrayList;
 import java.util.Scanner;

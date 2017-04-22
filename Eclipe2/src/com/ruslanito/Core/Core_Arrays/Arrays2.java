@@ -1,4 +1,4 @@
-package com.ruslanito.general;
+package com.ruslanito.Core.Core_Arrays;
 
 /**
  * Created by ДОМ on 16.01.2017.
