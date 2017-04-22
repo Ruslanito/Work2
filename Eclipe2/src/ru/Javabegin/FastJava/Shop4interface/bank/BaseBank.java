@@ -2,7 +2,7 @@ package ru.Javabegin.FastJava.Shop4interface.bank;
 
 import ru.Javabegin.FastJava.Shop4interface.interfaces.BankInterface;
 
-public class BaseBank implements BankInterface {
+public abstract class BaseBank implements BankInterface {
 
 	private String name;
 	private String creditDescription;
