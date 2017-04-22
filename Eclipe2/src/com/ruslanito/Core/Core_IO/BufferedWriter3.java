@@ -1,18 +1,18 @@
-package com.ruslanito.Core_IO;
+package com.ruslanito.Core.Core_IO;
 
 import java.io.*;
 
-public class BufferedWriter4 {
+public class BufferedWriter3 {
 
 	public static void main(String[] args) {
-		// создаём файл bufferedwriter4.txt с дополнением текста в нём
-		File myFile = new File("e://bufferedwriter4.txt");
+		// создаём файл bufferedwriter3.txt
+		File myFile = new File("e://bufferedwriter3.txt");
 
 		try {
 			// используем ссылку на файл
-			BufferedWriter writer = new BufferedWriter(new FileWriter(myFile, true));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(myFile));
 			// запись информационной строки
-			writer.write("Helo BufferedWriter4 \n");
+			writer.write("Helo BufferedWriter3 ");  
 			// Очистим поток
 			writer.flush();
 			// закрываем поток

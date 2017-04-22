@@ -1,4 +1,4 @@
-package com.ruslanito.Core_IO;
+package com.ruslanito.Core.Core_IO;
 
 import java.io.*;
 
