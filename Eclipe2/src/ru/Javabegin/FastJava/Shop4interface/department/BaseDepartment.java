@@ -6,7 +6,7 @@ import ru.Javabegin.FastJava.Shop4interface.interfaces.DepartmentInterface;
 import ru.Javabegin.FastJava.Shop4interface.interfaces.EmployeeInterface;
 import ru.Javabegin.FastJava.Shop4interface.interfaces.GoodsInterface;
 
-public class BaseDepartment implements DepartmentInterface {
+public abstract class BaseDepartment implements DepartmentInterface {
 	private String name;
 	private ArrayList<EmployeeInterface> employeeList;
 	private ArrayList<GoodsInterface> goodsList;

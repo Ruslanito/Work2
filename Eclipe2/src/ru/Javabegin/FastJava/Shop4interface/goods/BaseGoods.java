@@ -4,7 +4,7 @@ import ru.Javabegin.FastJava.Shop4interface.department.BaseDepartment;
 import ru.Javabegin.FastJava.Shop4interface.interfaces.DepartmentInterface;
 import ru.Javabegin.FastJava.Shop4interface.interfaces.GoodsInterface;
 
-public class BaseGoods implements GoodsInterface {
+public abstract class BaseGoods implements GoodsInterface {
 	private double price;
 	private boolean hasGuarantee;
 	private String name;

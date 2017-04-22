@@ -3,7 +3,7 @@ package ru.Javabegin.FastJava.Shop4interface.service;
 import ru.Javabegin.FastJava.Shop4interface.interfaces.DepartmentInterface;
 import ru.Javabegin.FastJava.Shop4interface.interfaces.EmployeeInterface;
 
-public class BaseEmployee implements EmployeeInterface {
+public abstract class BaseEmployee implements EmployeeInterface {
 	private String name;
 	private DepartmentInterface department;
 	private boolean free;
