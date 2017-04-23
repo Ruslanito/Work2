@@ -6,10 +6,10 @@ package com.ruslanito.general;
  */
 public class Alphabet {
     public static void main(String[] args) {
-        char ch = 'А', ch1;
+        char ch = 'z', ch1;
         int i, k = 0, z =1000;
 
-        while (ch <= 'я') {
+        while (ch <= 'Z') {
             i = (int) ch;
             System.out.print(ch + "=" + i + "  ");
             ch++;
