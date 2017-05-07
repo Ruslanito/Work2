@@ -1,4 +1,4 @@
-package com.ruslanito.Projects.Water;
+package com.ruslanito.Projects.Water.General;
 
 /** Потребление воды **
  * Created by user on 03.01.2017.
