@@ -1,4 +1,4 @@
-package com.ruslanito.Core.Core_MethodsAndClasses;
+package com.ruslanito.Core.Core_Math;
 
 import javax.swing.JOptionPane;
 public class ChetOrNeChet {
