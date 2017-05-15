@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class JFrame_With extends JFrame{
+public class JFrame_JFrame2_2 extends JFrame{
 	JButton b1, b2;
 	JLabel l1, l2, l3, l4;
 	JTextField t1, t2;
@@ -12,7 +12,7 @@ public class JFrame_With extends JFrame{
 	String a, b;
 	eHandler handler = new eHandler();
 	
-		public JFrame_With(String s){
+		public JFrame_JFrame2_2(String s){
 		super(s);
 		setLayout(new FlowLayout());
 		b1 = new JButton("ќчистить");
