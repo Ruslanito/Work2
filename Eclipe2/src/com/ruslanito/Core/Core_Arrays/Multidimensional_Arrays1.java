@@ -5,7 +5,7 @@ import javax.xml.bind.SchemaOutputResolver;
 /**
  * Created by user on 25.12.2016.
  */
-public class Multidimensional_Arrays {
+public class Multidimensional_Arrays1 {
     public static void main (String[] args){
         int[][] matrice = {{1,2,3,4,5},
                             {4},
