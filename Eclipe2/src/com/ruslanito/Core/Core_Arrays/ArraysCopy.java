@@ -11,7 +11,7 @@ public class ArraysCopy {
         //инициализация массива nums1
         for (i = 0; i < nums1.length; i++)
             nums1[i] = i;
-      //  System.out.println(nums1[i]+" ");
+        //	System.out.println(nums1[i]+" ");
         //копирование массива в массив
         if (nums2.length>=nums1.length)
             for (i=0;i<nums2.length;i++)
