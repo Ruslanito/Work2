@@ -1,6 +1,6 @@
 package com.ruslanito.Core.Core_MethodsAndClasses;
 
-public class ClassAndObjects_SetGet {
+public class ClassAndObject_SetGet {
     public static void main(String[] args) {
         Person1 person1 = new Person1();
         person1.setName("Родион");

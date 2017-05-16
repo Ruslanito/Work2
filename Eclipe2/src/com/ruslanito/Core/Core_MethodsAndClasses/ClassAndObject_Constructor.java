@@ -1,6 +1,6 @@
 package com.ruslanito.Core.Core_MethodsAndClasses;
 
-public class ClassesAndObjects_Constructor {
+public class ClassAndObject_Constructor {
 	public static void main(String[] args) {
 		Human2 human = new Human2("Jack");
 	}
