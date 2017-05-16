@@ -1,4 +1,4 @@
-package com.ruslanito.Core.Core_String;
+package com.ruslanito.Core.Core_String_Char;
 
 /**
  * Created by Ruslanito on 25.02.2017.
