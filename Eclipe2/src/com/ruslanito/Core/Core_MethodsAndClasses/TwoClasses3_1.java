@@ -1,6 +1,6 @@
 package com.ruslanito.Core.Core_MethodsAndClasses;
 
-public class TwoClasses3 {
+public class TwoClasses3_1 {
     public static void main(String[] args) {
         Person person1 = new Person ();
         person1.name = "Donald";
