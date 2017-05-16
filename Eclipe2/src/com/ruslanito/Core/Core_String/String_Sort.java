@@ -3,7 +3,7 @@ package com.ruslanito.Core.Core_String;
 /**
  * Created by Ruslanito on 20.02.2017.
  */
-public class StringSort {
+public class String_Sort {
     public static void main(String[] args) {
         String s = "во саду ли в огороде";
 

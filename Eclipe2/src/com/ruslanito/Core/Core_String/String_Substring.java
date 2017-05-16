@@ -3,7 +3,7 @@ package com.ruslanito.Core.Core_String;
 /**
  * Created by Ruslanito on 24.02.2017.
  */
-public class String_substring {
+public class String_Substring {
     public static void main(String[] args) {
         int start = 6;
         int end = 11;
