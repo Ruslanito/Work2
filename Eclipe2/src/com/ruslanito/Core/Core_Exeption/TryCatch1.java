@@ -9,7 +9,7 @@ public class TryCatch1 {
 			System.out.println("Before exception:");
 			// use outrange index
 			num[5] = 10;
-			System.out.println("******");
+			System.out.println("******"+num[5]);
 		} catch (ArrayIndexOutOfBoundsException exc) {
 			System.out.println("Out of num array range!");
 		}
