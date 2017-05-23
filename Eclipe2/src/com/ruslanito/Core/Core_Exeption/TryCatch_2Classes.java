@@ -18,6 +18,6 @@ public class TryCatch_2Classes {
 		}catch (Exception e){
 			System.out.println("catch work!");
 		}
-		System.out.println("End try-catch block!");
+		System.out.println("try-catch block ends!");
 	}
 }
