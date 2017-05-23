@@ -4,9 +4,10 @@ class ExceptionTest {
 	// create exception
 	static void genException() {
 		int nums[] = new int[5];
+		int n = 7;
 		System.out.println("***");
-		nums [7] = 10;
-		System.out.println("*"+nums[7]+"*");
+		nums [n] = 10;
+		System.out.println("*"+nums[n]+"*");
 	}
 }
 
