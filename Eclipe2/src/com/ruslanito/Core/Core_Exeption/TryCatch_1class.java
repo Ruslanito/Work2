@@ -1,6 +1,6 @@
 package com.ruslanito.Core.Core_Exeption;
 
-public class TryCatch1 {
+public class TryCatch_1class {
 	public static void main(String[] args) {
 		// create array num
 		int num[] = new int[4];
