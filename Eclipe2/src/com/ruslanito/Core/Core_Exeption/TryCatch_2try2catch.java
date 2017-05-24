@@ -5,7 +5,7 @@ public class TryCatch_2try2catch {
 	public static void main(String[] args) {
 		// create 2 arrays
 		int num1[]={2,4,6,8,10,12};
-		int num2[]={1,2,3,4};
+		int num2[]={1,0,3,4};
 		
 		try {
 			for (int i=0; i<num1.length; i++){
