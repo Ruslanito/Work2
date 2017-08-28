@@ -22,7 +22,7 @@ public class Alphabet {
 
         k=0;
         System.out.println();
-        System.out.println("* * * * * *");
+        System.out.println("* * * * * * *");
         while (z <= 1200) {
             ch1 = (char) z;
             System.out.print(ch1+"="+z+"  ");
